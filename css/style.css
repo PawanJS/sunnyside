@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  scroll-behavior: smooth; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif; }
+
+.mt-sm {
+  margin-top: 1rem; }
+
+.mt-md {
+  margin-top: 3rem; }
+
+.mt-lg {
+  margin-top: 5rem; }
+
+.text-center {
+  text-align: center; }
+
+.scr-reader {
+  position: absolute;
+  top: 0;
+  left: -1000000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
