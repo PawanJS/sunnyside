@@ -24,26 +24,29 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
+    <!--Header with navigation and hero text  -->
     <header class="header">
-      <nav class="nav">
-        <figure class="nav__logo">
+      <nav class="navigation">
+        <figure class="navigation__logo">
           <img src="images/logo.svg" alt="Sunnyside logo" class="nav--img" />
         </figure>
-        <ul class="nav__list js-menu-list">
-          <li class="nav__list--item">
-            <a href="#about" class="nav__list--item-link">About</a>
+        <ul class="navigation__list js-menu-list">
+          <li class="navigation__list--item">
+            <a href="#about" class="navigation__list--item-link">About</a>
           </li>
-          <li class="nav__list--item">
-            <a href="#services" class="nav__list--item-link">Services</a>
+          <li class="navigation__list--item">
+            <a href="#services" class="navigation__list--item-link">Services</a>
           </li>
-          <li class="nav__list--item">
-            <a href="#projects" class="nav__list--item-link">Projects</a>
+          <li class="navigation__list--item">
+            <a href="#projects" class="navigation__list--item-link">Projects</a>
           </li>
-          <li class="nav__list--item">
-            <a href="#contact" class="nav__list--item-link cta">Contact</a>
+          <li class="navigation__list--item">
+            <a href="#contact" class="navigation__list--item-link cta"
+              >Contact</a
+            >
           </li>
         </ul>
-        <figure class="nav__menu-icon js-menu-icon">
+        <figure class="navigation__menu-icon js-menu-icon">
           <img src="images/icon-hamburger.svg" alt="Menu icon" />
         </figure>
       </nav>
@@ -55,6 +58,7 @@
       </div>
     </header>
     <main>
+      <!-- features section -->
       <section id="about" class="feature">
         <figure class="feature--image align-image">
           <img
@@ -65,6 +69,7 @@
               images/desktop/image-transform.jpg 577w,
               images/mobile/image-transform.jpg  576w
             "
+            sizes="577w"
           />
         </figure>
         <div class="feature--text align-text">
@@ -97,6 +102,7 @@
           <a href="#" class="feature--link mt-md pink">LEARN MORE</a>
         </div>
       </section>
+      <!-- services section -->
       <section id="services" class="services">
         <div class="services__left-column">
           <div class="services--text">
@@ -140,6 +146,7 @@
           </figure>
         </div>
       </section>
+      <!-- Testimonial section -->
       <section class="testimonial">
         <h3 class="heading-3">Client testimonials</h3>
         <div class="testimonial--container mt-lg">
@@ -178,6 +185,7 @@
           </div>
         </div>
       </section>
+      <!-- Gallery section -->
       <section id="projects" class="gallery">
         <figure class="gallery--image">
           <img
@@ -225,6 +233,7 @@
         </figure>
       </section>
     </main>
+    <!-- Footer section -->
     <footer id="contact" class="footer">
       <figure class="footer--logo">
         <img src="images/logo-footer.svg" alt="" />
