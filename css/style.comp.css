@@ -56,7 +56,7 @@ body {
   margin-top: 3rem; }
 
 .mt-lg {
-  margin-top: 5rem; }
+  margin-top: 8rem; }
 
 .scr-reader {
   position: absolute;
@@ -171,7 +171,7 @@ body {
   align-items: center; }
   @media only screen and (min-width: 48em) {
     .testimonial {
-      padding: 10rem 3rem; } }
+      padding: 15rem 3rem; } }
   .testimonial--container {
     max-width: 144rem;
     display: grid;
@@ -225,11 +225,11 @@ body {
 .header {
   background: url("../images/desktop/image-header.jpg") no-repeat center;
   background-size: cover;
-  min-height: 80vh; }
+  min-height: 90vh; }
   .header__hero--text {
     padding: 0 3rem;
     text-align: center;
-    transform: translateY(40%); }
+    transform: translateY(30%); }
 
 .navigation {
   display: flex;
