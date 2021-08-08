@@ -1,0 +1,11 @@
+.header {
+  background: url(../../images/desktop/image-header.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+
+  &__hero--text {
+    padding: 0 3rem;
+    text-align: center;
+    transform: translateY(40%);
+  }
+}

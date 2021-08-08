@@ -1,0 +1,39 @@
+.testimonial {
+  padding: 5rem 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and(min-width:48em) {
+    padding: 10rem 3rem;
+  }
+
+  &--container {
+    max-width: 144rem;
+    display: grid;
+    gap: 3rem;
+
+    @media only screen and(min-width:48em) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &--person {
+    color: BBB9B9;
+    font-size: 1.5rem;
+  }
+
+  &--img {
+    img {
+      width: 6.4rem;
+      height: 6.4rem;
+      border-radius: 50%;
+    }
+  }
+
+  &--wrapper {
+    max-width: 40rem;
+  }
+}
